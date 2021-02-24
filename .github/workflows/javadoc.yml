@@ -19,6 +19,6 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Check JavaDoc
-      run: "./gradlew clean javadoc 2>&1 | grep -v 'warning: [deprecation]' | grep   -A 2  -e 'warning:' -e 'error:'"
+      run: "./gradlew clean javadoc 2>&1 | grep warning"
 
 
