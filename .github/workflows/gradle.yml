@@ -21,4 +21,4 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: error sample
-      run: echo Error 1>&2
+      run: echo Error && exit 1
