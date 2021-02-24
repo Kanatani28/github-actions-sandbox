@@ -8,17 +8,14 @@ public class SampleController {
 
     /***
      * @param in input
-     * @param j iii 
+     * @param out out
+     * @return Str 
      */
     public String get(String in, String out) {
         return "Hello";
     }
 
 
-    /**
-    *  コメントの説明文
-    *  @deprecated 別のメソッドに置き換えられました
-    */
     public String out() {
         return "dep";
     }
