@@ -20,5 +20,3 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
-    - name: error sample
-      run: echo Error && exit 1
